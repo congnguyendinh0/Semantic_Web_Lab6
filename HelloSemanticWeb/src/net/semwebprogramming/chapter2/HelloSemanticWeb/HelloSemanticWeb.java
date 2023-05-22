@@ -25,22 +25,22 @@ public class HelloSemanticWeb {
     public static void main(String[] args) {
         //Load the RDF data from your ontology file
         Model model = loadAirpodsData();
-        // Query 1: Retrieves all the airpods objects and their corresponding types.
+        // Query 1: Retrieves all the airpods and their corresponding types.
         String query1 = "SELECT ?airpods ?type WHERE { ?airpods rdf:type ?type . }";
-        //Query 2: Retrieves airpods objects with transparency mode is set to true.
+        //Query 2: Retrieves airpods with transparency mode is set to true.
         String query2 = "SELECT ?airpods ?transparencyMode\n"
                 + "WHERE {\n"
                 + "  ?airpods <http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Transparency_mode> ?transparencyMode .\n"
                 + "  FILTER (?transparencyMode = true)\n"
                 + "}\n"
                 + "";
-        //Query 3: Retrieves airpods objects where the price is 129.
+        //Query 3: Retrieves all airpods where the price is 129.
         String query3 = "SELECT ?airpods ?price\n"
                 + "WHERE {\n"
                 + "  ?airpods <http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Price> ?price .\n"
                 + "  FILTER (?price = \"129\")\n"
                 + "}";
-       // Query 4: Retrieves airpods objects with case battery which lasts up to 30 hours."
+       // Query 4: Retrieves all airpods which have a case battery which lasts up to 30 hours."
         String query4 = "SELECT ?airpods ?caseBattery\n"
                 + "WHERE {\n"
                 + "  ?airpods <http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Case_Battery> ?caseBattery .\n"
