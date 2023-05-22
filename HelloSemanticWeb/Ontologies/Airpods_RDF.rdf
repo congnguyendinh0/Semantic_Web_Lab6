@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/"
+     xml:base="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods">
+        <rdfs:comment>This is an ontology about Airpods</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#type_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#type_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/InEar"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/OnEar"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Active_noise_canceling -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Active_noise_canceling">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Case_Battery -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Case_Battery">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Case_Size -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Case_Size">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Connectivity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Connectivity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Custom_Chips -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Custom_Chips">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Earbud_Battery -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Earbud_Battery">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Earbud_Size -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Earbud_Size">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Earbud_Weight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Earbud_Weight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Included_Charging_Cable -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Included_Charging_Cable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Price -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Price">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Transparency_mode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Transparency_mode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Water_Resistance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Water_Resistance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Wired_Charging -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Wired_Charging">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Wireless_Charging -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Wireless_Charging">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/InEar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/InEar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/OnEar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/OnEar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/OnEar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_(second-gen) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_(second-gen)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/InEar"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_(third-gen)"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/AirPods_Max"/>
+        <Active_noise_canceling rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Active_noise_canceling>
+        <Case_Battery>More than 24 hours</Case_Battery>
+        <Case_Size>53.5 x 44.3 x 21.3</Case_Size>
+        <Connectivity>Bluetooth 5.0</Connectivity>
+        <Custom_Chips>Apple H1</Custom_Chips>
+        <Earbud_Battery>Up to 5 hours</Earbud_Battery>
+        <Earbud_Size>40.5 x 16.5 x 18.0</Earbud_Size>
+        <Earbud_Weight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</Earbud_Weight>
+        <Included_Charging_Cable>Lightning to USB-A</Included_Charging_Cable>
+        <Price>129</Price>
+        <Transparency_mode rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Transparency_mode>
+        <Water_Resistance>No</Water_Resistance>
+        <Wired_Charging>Yes, via Lightning</Wired_Charging>
+        <Wireless_Charging>No</Wireless_Charging>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_(third-gen) -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_(third-gen)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_(third-gen) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_(third-gen)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/InEar"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_Pro_(first-gen)"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/AirPods_Max"/>
+        <Active_noise_canceling rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Active_noise_canceling>
+        <Case_Battery>Up to 30 hours</Case_Battery>
+        <Case_Size>46.4 x 54.4 x 21.4</Case_Size>
+        <Connectivity>Bluetooth 5.0</Connectivity>
+        <Custom_Chips>Apple H1</Custom_Chips>
+        <Earbud_Battery>Up to 6 hours</Earbud_Battery>
+        <Earbud_Size>30.8 x 18.3 x 19.2</Earbud_Size>
+        <Earbud_Weight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.28</Earbud_Weight>
+        <Included_Charging_Cable>Lightning to USB-C</Included_Charging_Cable>
+        <Price>179 (usually on sale for $149.99-$169.99)</Price>
+        <Transparency_mode rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Transparency_mode>
+        <Water_Resistance>IPX4</Water_Resistance>
+        <Wired_Charging>Yes, via Lightning</Wired_Charging>
+        <Wireless_Charging>Yes, via Qi-certified or MagSafe chargers</Wireless_Charging>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_Pro_(first-gen) -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_Pro_(first-gen)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_Pro_(first-gen) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_Pro_(first-gen)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/InEar"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_Pro_(second-gen)"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/AirPods_Max"/>
+        <Active_noise_canceling rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Active_noise_canceling>
+        <Case_Battery>More than 24 hours</Case_Battery>
+        <Case_Size>45.2 x 60.6 x 21.7</Case_Size>
+        <Connectivity>Bluetooth 5.0</Connectivity>
+        <Custom_Chips>Apple H1</Custom_Chips>
+        <Earbud_Battery>Up to 4.5 hours</Earbud_Battery>
+        <Earbud_Size>30.9 x 21.8 x 24</Earbud_Size>
+        <Earbud_Weight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.5</Earbud_Weight>
+        <Included_Charging_Cable>Lightning to USB-C</Included_Charging_Cable>
+        <Price>$249 (usually on sale for $179)</Price>
+        <Transparency_mode rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Transparency_mode>
+        <Water_Resistance>IPX4</Water_Resistance>
+        <Wired_Charging>Lightning connector</Wired_Charging>
+        <Wireless_Charging>Yes, via Qi-certified or MagSafe chargers</Wireless_Charging>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_Pro_(second-gen) -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_Pro_(second-gen)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_Pro_(second-gen) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_Pro_(second-gen)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/InEar"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/AirPods_Max"/>
+        <Active_noise_canceling rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Active_noise_canceling>
+        <Case_Battery>Up to 30 hours</Case_Battery>
+        <Case_Size>45.2 x 60.6 x 21.7</Case_Size>
+        <Connectivity>Bluetooth 5.3</Connectivity>
+        <Custom_Chips>Apple H2</Custom_Chips>
+        <Earbud_Battery>Up to 6 hours</Earbud_Battery>
+        <Earbud_Size>30.9 x 21.8 x 24</Earbud_Size>
+        <Earbud_Weight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.5</Earbud_Weight>
+        <Included_Charging_Cable>Lightning to USB-C</Included_Charging_Cable>
+        <Price>$249</Price>
+        <Transparency_mode rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Transparency_mode>
+        <Water_Resistance>IPX4</Water_Resistance>
+        <Wired_Charging>Yes, via Lightning</Wired_Charging>
+        <Wireless_Charging>Yes, via Qi-certified or MagSafe chargers</Wireless_Charging>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/AirPods_Max -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/AirPods_Max">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/OnEar"/>
+        <Active_noise_canceling rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Active_noise_canceling>
+        <Case_Battery>N/A</Case_Battery>
+        <Case_Size>134.5 mm</Case_Size>
+        <Connectivity>Bluetooth 5.0</Connectivity>
+        <Custom_Chips>Apple H1</Custom_Chips>
+        <Earbud_Battery>Up to 20 hours</Earbud_Battery>
+        <Earbud_Size>187.3 x 168.6 x 83.4</Earbud_Size>
+        <Earbud_Weight rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">384.8</Earbud_Weight>
+        <Included_Charging_Cable>Lightning to USB-C</Included_Charging_Cable>
+        <Price>549 (usually on sale for $479)</Price>
+        <Transparency_mode rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Transparency_mode>
+        <Water_Resistance>No</Water_Resistance>
+        <Wired_Charging>Yes, via Lightning</Wired_Charging>
+        <Wireless_Charging>No</Wireless_Charging>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
