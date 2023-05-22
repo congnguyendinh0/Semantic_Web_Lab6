@@ -27,7 +27,7 @@ public class HelloSemanticWeb {
         Model model = loadAirpodsData();
         // Query 1: Retrieves all the airpods and their corresponding types.
         String query1 = "SELECT ?airpods ?type WHERE { ?airpods rdf:type ?type . }";
-        //Query 2: Retrieves airpods with transparency mode is set to true.
+        //Query 2: Retrieves airpods where the transparency mode is set to true.
         String query2 = "SELECT ?airpods ?transparencyMode\n"
                 + "WHERE {\n"
                 + "  ?airpods <http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Transparency_mode> ?transparencyMode .\n"
