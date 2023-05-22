@@ -1,0 +1,43 @@
+Query Result:
+
+Ontology loaded successfully.
+first query to get all objects
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Transparency_mode, Type: http://www.w3.org/2002/07/owl#DatatypeProperty
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Case_Size, Type: http://www.w3.org/2002/07/owl#DatatypeProperty
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Earbud_Weight, Type: http://www.w3.org/2002/07/owl#DatatypeProperty
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Custom_Chips, Type: http://www.w3.org/2002/07/owl#DatatypeProperty
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Earbud_Battery, Type: http://www.w3.org/2002/07/owl#DatatypeProperty
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Active_noise_canceling, Type: http://www.w3.org/2002/07/owl#DatatypeProperty
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/InEar, Type: http://www.w3.org/2002/07/owl#Class
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Connectivity, Type: http://www.w3.org/2002/07/owl#DatatypeProperty
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_Pro_(second-gen), Type: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/InEar
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_(second-gen), Type: http://www.w3.org/2002/07/owl#NamedIndividual
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_Pro_(first-gen), Type: http://www.w3.org/2002/07/owl#NamedIndividual
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/OnEar, Type: http://www.w3.org/2002/07/owl#Class
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Wired_Charging, Type: http://www.w3.org/2002/07/owl#DatatypeProperty
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_(second-gen), Type: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/InEar
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_(third-gen), Type: http://www.w3.org/2002/07/owl#NamedIndividual
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Wireless_Charging, Type: http://www.w3.org/2002/07/owl#DatatypeProperty
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Case_Battery, Type: http://www.w3.org/2002/07/owl#DatatypeProperty
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Earbud_Size, Type: http://www.w3.org/2002/07/owl#DatatypeProperty
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Airpods, Type: http://www.w3.org/2002/07/owl#Class
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_Pro_(second-gen), Type: http://www.w3.org/2002/07/owl#NamedIndividual
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#type_of, Type: http://www.w3.org/2002/07/owl#ObjectProperty
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_(third-gen), Type: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/InEar
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/AirPods_Max, Type: http://www.w3.org/2002/07/owl#NamedIndividual
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods, Type: http://www.w3.org/2002/07/owl#Ontology
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Included_Charging_Cable, Type: http://www.w3.org/2002/07/owl#DatatypeProperty
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_Pro_(first-gen), Type: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/InEar
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Price, Type: http://www.w3.org/2002/07/owl#DatatypeProperty
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/AirPods_Max, Type: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/OnEar
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Water_Resistance, Type: http://www.w3.org/2002/07/owl#DatatypeProperty
+second query to get all airpods with transparency mode
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/AirPods_Max, Type: null
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_Pro_(second-gen), Type: null
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_Pro_(first-gen), Type: null
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_(second-gen), Type: null
+third query to get all airpods with price 129$
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_(second-gen), Type: null
+first query to get all airpods with case battery up to 30 hours
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_Pro_(second-gen), Type: null
+AirPods: http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods#AirPods_(third-gen), Type: null
