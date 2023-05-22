@@ -23,7 +23,7 @@ import com.hp.hpl.jena.util.FileManager;
 public class HelloSemanticWeb {
     static String defaultNameSpace = "http://org.semwebprogramming/chapter2/people#";
     public static void main(String[] args) {
-        // Load the RDF data from your ontology file
+        //Load the RDF data from your ontology file
         Model model = loadAirpodsData();
         // Query 1: Retrieves all the airpods objects and their corresponding types.
         String query1 = "SELECT ?airpods ?type WHERE { ?airpods rdf:type ?type . }";
@@ -40,7 +40,7 @@ public class HelloSemanticWeb {
                 + "  ?airpods <http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Price> ?price .\n"
                 + "  FILTER (?price = \"129\")\n"
                 + "}";
-       //Query 4: Retrieves airpods objects with case battery which lasts up to 30 hours"
+       // Query 4: Retrieves airpods objects with case battery which lasts up to 30 hours."
         String query4 = "SELECT ?airpods ?caseBattery\n"
                 + "WHERE {\n"
                 + "  ?airpods <http://www.semanticweb.org/yosua/ontologies/2023/3/Airpods/Case_Battery> ?caseBattery .\n"
